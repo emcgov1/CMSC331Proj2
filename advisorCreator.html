@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Advising Scheduling</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="advisor.css"/>
+  </head>
+
+  <body>
+    <div class="form">
+      <h1>Advising Scheduling</h1>
+      <h2>Advisor Creator</h2>
+      <form action="advisorCreator.php" method="post" name="Creator">
+
+	<div class="field">
+	  <label for="tfFName">First Name</label><br>
+	  <input id="tfFName" type="text" size="30" maxlength="25" name="tfFName" required autofocus>
+	</div>
+	<div class="field">
+	  <label for="tfLName">Last Name</label><br>
+	  <input id="tfLName" type="text" size="30" maxlength="25" name="tfLName" required>
+	</div>
+	<div class="field">
+	  <label for="tfID">Campus ID</label><br>
+	  <input id="tfID" type="text" size="30" maxlength="7" pattern="[A-Za-z]{2}[0-9]{5}" title="AB12345" placeholder="AB12345" name="tfID" required>
+	</div>
+	<div class="field">
+	  <label for="tfEmail">Email</label><br>
+	  <input id="tfEmail" type="email" size="30" maxlength="25" pattern="^\w+@umbc\.edu" title="advisor1@umbc.edu" name="tfEmail" placeholder="advisor1@umbc.edu" required>
+	</div>
+	<div class="field">
+	  <label for="tfOffice">Office</label><br>
+	  <input id="tfOffice" type="text" size="30" maxLength="25" name="tfOffice" required>
+	</div>
+	
+	<div class="nextButton">
+	  <input type="submit" value="Sign In" name="Sign In">
+	</div>
+      </form>
+    </div>
+  </body>
+</html>

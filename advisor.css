@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+html {
+
+    background-color: #9ED5DF;
+    position: relative; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 { 
+    font-family: Poiret One, Arial, Helvetica, sans-serif;
+    font-size: 32px; 
+    text-align: center;
+    line-height: 40px; 
+    margin: 0; 
+    padding: 0; 
+}
+  
+h2 { 
+    font-size: 24px; 
+    text-align: center;
+    line-height: 30px; 
+    margin: 0; 
+    padding: 0; 
+}
+
+input[type="text"],input[type="email"], textarea {
+    /*background-color: #F6F6F6;
+      border: 1px solid #999;
+      color: #444;
+      font-size: 20px;
+      line-height: 16px;
+      padding: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      width: 262px;*/
+}
+
+.field {
+    margin-bottom: 5px;
+}
+
+.form {
+
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+
+    color: #000; 
+    background-color: #FFF; 
+    margin: 100px auto 0; 
+    padding: 20px 20px 20px; 
+    position: relative; 
+    width: 330px; 
+}
+
+#logout a, .button {
+    background-color: #768089;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 25px;
+    overflow: visible;
+    padding: 0 12px;
+    margin: 5px auto 0;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+    -moz-appearance: none;
+    -moz-border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 4px;
+    line-height: 25px;
+    
+}
+
+.nextButton {
+    margin-top: 8px;
+}
+
+#advisor
+{
+    margin-left: 2.5%;
+}
+
+#bullets
+{
+    margin-left: 4.5%;
+}
+
+/*#loggedOut {
+    position: relative;
+    margin: 100px auto 0;
+}*/
